@@ -34,8 +34,8 @@ LED State:<iframe name="myIframe" width="100" height="25" frameBorder="0"><br>
 #define LED 13 // 2  
 
 //SSID and Password of your WiFi router
-const char* ssid = "WBML_229_2.4G";
-const char* password = "wbml0229";
+const char* ssid = "ssid";
+const char* password = "password";
 
 //Declare a global object variable from the ESP8266WebServer class.
 ESP8266WebServer server(80); //Server on port 80
